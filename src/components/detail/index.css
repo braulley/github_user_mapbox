@@ -1,0 +1,35 @@
+#card {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;    
+}
+
+.card-column {
+    display: flex;
+    flex-direction: row;
+    margin: 9px;
+    border-bottom: 1px solid gray;
+    align-items: center;
+}
+
+.item {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.item > strong {
+    display: block;
+    font-size: 14px;
+    color: #515151;
+}
+
+img {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+}
+
+.icon {
+   
+}

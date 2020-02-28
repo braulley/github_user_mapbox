@@ -1,0 +1,43 @@
+button {
+    color: white;
+    border-radius: 4px;
+    border: none;    
+    padding: 15px;
+    align-items: center;           
+}
+.mainButton {
+    display: flex;
+    flex-direction: row;  
+}
+
+#save {
+    flex: 1;
+    background-color: #85c47c;
+    margin: 5px auto auto auto;
+}
+
+#cancel {
+    flex: 1;
+    background-color: #cccccc;
+    margin: 5px 5px auto auto;
+}
+
+h5 {
+    color: #414141;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input {
+    background-color: white;
+    height: 18px;
+    width: 250px;
+    display: block;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ebebeb;
+    padding: 10px;
+}
